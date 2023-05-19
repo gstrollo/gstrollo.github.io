@@ -1,0 +1,17 @@
+:root {
+    --org: #ea9b08;
+    --offwh: rgb(250, 247, 215);
+}
+body {
+    font-family: monospace;
+    background-color: var(--offwh);
+    font-size: large;
+}
+h1,h2 {
+    color: var(--org);
+}
+.hl {
+    color: #fff;
+    background-color: var(--org);
+    font-weight: bold;
+}
