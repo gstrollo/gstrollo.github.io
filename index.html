@@ -13,13 +13,33 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>g.strollo's Blog</h1>
-        <p>Super simple blog for me to document my processes and play with HTML projects. <span class="hl">click for more about me.</span></p>
-        <h2>Articles</h2>
-        <p>...</p>
-        <h2>Projects</h2>
-        <p>...</p>
-        <script src="" async defer></script>
-
+        <div class="grid">
+            <!-- header -->
+            <header>
+                <h1>g.strollo</h1>
+            </header>
+            <!-- navigation -->
+            <div class="nav" id="myNav">
+                <a href="">item</a>
+                <a href="">item</a>
+                <a href="">item</a>
+                <a href="">item</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <img src="menu.png" height="20">
+                </a>
+            </div>
+            <!-- sidebar -->
+            <div class="sidebar">
+                <p>Super simple page for me to document my processes and play with HTML projects. <span class="hl">click for more about me.</span></p>
+            </div>
+            <!-- content -->
+            <div class="content">
+                <h2>Articles</h2>
+                <p>...</p>
+                <h2>Projects</h2>
+                <p>...</p>
+            </div>
+        </div>
+        <script src="script.js" async defer></script>
     </body>
 </html>
